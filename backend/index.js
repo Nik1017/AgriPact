@@ -14,6 +14,7 @@ dotenv.config();
 const app = express();
 
 const allowedOrigins = [
+    "https://agri-pact.vercel.app/",
     "https://agripact-mu.vercel.app",
     "https://agripact-mu.vercel.app/"
 ];
