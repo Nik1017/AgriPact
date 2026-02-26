@@ -1,0 +1,1 @@
+export const Backend_URL="https://agripact-3.onrender.com/api/v1"
