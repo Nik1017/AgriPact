@@ -93,7 +93,7 @@ const PaymentPage = () => {
       };
 
       const res = await axios.post(
-        "http://localhost:3001/api/v1/order/create",
+        "https://agri-pact-backend.vercel.app/api/v1/order/create",
         orderData,
         {
           headers: { Authorization: `Bearer ${token}` },
